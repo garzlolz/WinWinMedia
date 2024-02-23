@@ -3,7 +3,7 @@
 ## 題目一必要條件
 ### 1. 修改 appsettings.json 中的連線字串
 
-修改 appsettings.Development.json 中的連線字串或是加入 appsettings.json
+修改 appsettings.json 中的連線字串
 
 - 位置 `WinWinMedia/WinWinMedia_Quiz1/appsettings.json`
 
