@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-var connString = builder.Configuration.GetConnectionString("TridentTech");
+var connString = builder.Configuration.GetConnectionString("WinWin");
 builder.Services.AddDbContext<WinWinDBContext>(option =>
 {
     option.UseSqlServer(connString, options =>
@@ -32,7 +32,7 @@ _ = builder.Services.AddSwaggerGen(swagger =>
         Version = "v1"
     });
 
-    var apiXmlPath = Path.Combine(AppContext.BaseDirectory, "UserManagement.xml");
+    var apiXmlPath = Path.Combine(AppContext.BaseDirectory, "Quiz1.xml");
     swagger.IncludeXmlComments(apiXmlPath);
 });
 

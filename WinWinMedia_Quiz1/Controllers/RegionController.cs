@@ -34,7 +34,7 @@ namespace UserManagement.Controllers
         }
 
         /// <summary>
-        /// 取得該地區男女人數
+        /// 取得所有地區男女人數
         /// </summary>
         /// <returns></returns>
         [HttpGet]

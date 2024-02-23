@@ -42,7 +42,7 @@ namespace UserManagement.Services.ApiService
         }
 
         /// <summary>
-        /// 取得該地區男女人數
+        /// 取得所有地區男女人數
         /// </summary>
         /// <returns></returns>
         public async Task<ResultResponse<List<GetUserSexsResponseModel>>> GetUserSex()
