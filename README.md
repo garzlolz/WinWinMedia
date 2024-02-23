@@ -15,7 +15,7 @@
 
 ### 2. 加入 DB 結構
 
-1. 執行 WitsXMxic.sql，位置 ` Project/winwin.sql`
+1. 執行 winwin.sql，位置 ` WinWinMedia/winwin.sql`
 
 2. 或使用 Code First 指令
 
